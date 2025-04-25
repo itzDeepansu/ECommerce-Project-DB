@@ -10,7 +10,7 @@ import { addItem, removeItem, dropItem } from "@/features/cart/cartSlice";
 import { toast } from "sonner";
 // import { loadStripe } from "@stripe/stripe-js";
 import Link from "next/link";
-const page = () => {  
+const Page = () => {  
   const cartItems = useSelector((state) => state.cart.cartItems).slice(1);
   const cartValue = useSelector((state) => state.cart.cartValue);
   const shippingfee = 0;
@@ -121,4 +121,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

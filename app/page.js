@@ -41,8 +41,8 @@ export default function Home() {
       <div className="flex border-t justify-center mt-8">
         <div className="w-1/4 flex justify-center items-center border-r text-l font-medium">
           <ul className="h-[70vh] flex flex-col justify-between">
-            <Link href="/shoppingarea/men" className="hover:bg-orange-400 h-10 p-2 rounded-md">Men's Fashion</Link>
-            <Link href="/shoppingarea/women" className="hover:bg-orange-400 h-10 p-2 rounded-md">Women's Fashion</Link>
+            <Link href="/shoppingarea/men" className="hover:bg-orange-400 h-10 p-2 rounded-md">Men&apos;s Fashion</Link>
+            <Link href="/shoppingarea/women" className="hover:bg-orange-400 h-10 p-2 rounded-md">Women&apos;s Fashion</Link>
             <Link href="/shoppingarea/medicine" className="hover:bg-orange-400 h-10 p-2 rounded-md">Medicine</Link>
             <Link href="/shoppingarea/smartphones" className="hover:bg-orange-400 h-10 p-2 rounded-md">Smartphones</Link>
             <Link href="/shoppingarea/laptops" className="hover:bg-orange-400 h-10 p-2 rounded-md">Laptops</Link>
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-5/6 mx-auto flex flex-col mt-14 mb-10">
-        <div className="text-red-600">Today's</div>
+        <div className="text-red-600">Today&apos;s</div>
         <div className="text-5xl font-medium mb-6">Flash Sales</div>
         <div className="flex flex-nowrap overflow-x-scroll gap-2 no-scrollbar ">
           {Array.from({ length: 10 }).map((_, index) => (

@@ -12,7 +12,10 @@ const Navbar = () => {
     <div>
       <Offerbar />
       <Menubar className="flex justify-center items-center h-12 relative">
-        <div className="hover:bg-slate-500 absolute left-0">Logo</div>
+        <div className="hover:bg-slate-500 absolute left-0 flex items-center gap-2">
+          <img src="/logo.PNG" alt="" className="h-12 w-12 ml-4" />
+          <div className="text-xl">ShopNi</div>
+        </div>
         <MenubarMenu>
           <Menubar className="flex justify-around w-96 rounded-none h-12 ">
             <Link href="/" className="hover:bg-orange-400 p-2 rounded-md">

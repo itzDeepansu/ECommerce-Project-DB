@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { useSelector } from "react-redux";
 import { loadStripe } from "@stripe/stripe-js";
 
-const page = () => {
+const Page = () => {
   const cartItems = useSelector((state) => state.cart.cartItems).slice(1);
   const cartValue = useSelector((state) => state.cart.cartValue);
   const shippingfee = 0;
@@ -145,4 +145,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

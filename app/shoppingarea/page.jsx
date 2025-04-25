@@ -26,7 +26,7 @@ import { toast } from "sonner";
 import Navbar from "@/components/Navbar";
 import CircleLoader from "react-spinners/CircleLoader";
 import axios from "axios";
-const page = () => {
+const Page = () => {
   const dispatch = useDispatch();
   let abortController = useRef(null);
   // const [data, setData] = useState([]);
@@ -164,4 +164,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

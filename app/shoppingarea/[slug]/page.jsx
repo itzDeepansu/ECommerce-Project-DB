@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useEffect, useState } from "react";
 import {
   Card,
@@ -26,7 +26,7 @@ import { toast } from "sonner";
 import Navbar from "@/components/Navbar";
 import axios from "@/app/libs/axios";
 
-const page = ({ params }) => {
+const Page = ({ params }) => {
   const dispatch = useDispatch();
   const [data, setData] = useState([]);
   const [input, setinput] = useState("");
@@ -146,4 +146,4 @@ const page = ({ params }) => {
   );
 };
 
-export default page;
+export default Page;

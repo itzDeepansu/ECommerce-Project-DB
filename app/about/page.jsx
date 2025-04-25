@@ -19,7 +19,7 @@ const AboutPage = () => {
         We take your security seriously, which is why we use Clerk for authentication to ensure your account is safe and secure.
       </p>
       <p className="mb-4">
-        For payments, we utilize Stripe's secure payment gateway, allowing you to shop with confidence.
+        For payments, we utilize Stripe&apos;s secure payment gateway, allowing you to shop with confidence.
       </p>
       <p className="mb-4">
         Our product catalog is powered by dummy JSON data, offering a wide range of items for you to explore and purchase.
